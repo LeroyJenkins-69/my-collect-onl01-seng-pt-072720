@@ -8,4 +8,4 @@ def my_collect(array)
   array2
 end 
 
-my_collect([]) {|i| #{i}}
+my_collect([]) {|i| "#{i}"}
