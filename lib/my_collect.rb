@@ -5,7 +5,7 @@ def my_collect(array)
   yield(array[i])
   i += 1
   end
-  array
+  array2
 end 
 
 my_collect([]) {|i| #{i}}
